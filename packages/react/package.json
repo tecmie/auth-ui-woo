@@ -1,5 +1,5 @@
 {
-  "name": "@supabase/auth-ui-react",
+  "name": "@wootiv/auth-ui-react",
   "version": "0.4.6",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",

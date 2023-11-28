@@ -22,7 +22,7 @@ Auth UI is kept deliberately separate from @supabase/auth-helpers so that develo
   - `@example/solid`: a [Solid.js](./examples/solidjs) app
   - `@example/svelte`: a [Svelte](./examples/svelte) app
 - Packages
-  - `@supabase/auth-ui-react`: the supabase auth ui reactjs library used by `react` application
+  - `@wootiv/auth-ui-react`: the supabase auth ui reactjs library used by `react` application
   - `@supabase/auth-ui-solid`: the supabase auth ui solid.js library used by `solid.js` application
   - `@supabase/auth-ui-svelte`: the supabase auth ui svelte library used by `svelte` application
   - `shared`: shared typescript types used by `@supabase/auth-ui-[framework]` library
@@ -35,7 +35,7 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 Localizations are no longer distributed with the package in order to keep the package size small. You can now import the localization you need by copying the file from this repo and importing it into your project then passing it to the `localization.variables` param of the Auth component.
 
 ```tsx
-import { Auth } from '@supabase/auth-ui-react'
+import { Auth } from '@wootiv/auth-ui-react'
 import * as ja from './path-to-localization-file.json'
 ...
 <Auth

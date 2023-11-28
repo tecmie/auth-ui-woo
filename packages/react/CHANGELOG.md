@@ -1,4 +1,4 @@
-# @supabase/auth-ui-react
+# @wootiv/auth-ui-react
 
 ## 0.4.6
 
