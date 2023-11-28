@@ -22,6 +22,7 @@ export interface EmailAuthProps {
   authView?: ViewSignIn | ViewSignUp
   defaultEmail?: string
   defaultPassword?: string
+  defaultFullname?: string
   setAuthView?: any
   setDefaultEmail?: (email: string) => void
   setDefaultPassword?: (password: string) => void
@@ -38,6 +39,7 @@ export interface EmailAuthProps {
 function EmailAuth({
   authView = 'sign_in',
   defaultEmail = '',
+  defaultFullname = '',
   defaultPassword = '',
   setAuthView = () => {},
   setDefaultEmail = (email) => {},
@@ -53,6 +55,8 @@ function EmailAuth({
 }: EmailAuthProps) {
   const isMounted = useRef<boolean>(true)
   const [email, setEmail] = useState(defaultEmail)
+  const [fullname, setFullname] = useState(defaultFullname)
+
   const [password, setPassword] = useState(defaultPassword)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
@@ -162,6 +166,7 @@ function EmailAuth({
               }
               appearance={appearance}
             />
+            <small>ⓘ Password should be a combination of letters, numbers and special characters</small>
           </div>
           {children}
         </Container>

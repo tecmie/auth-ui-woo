@@ -65,6 +65,8 @@ function SocialAuth({
 
   return (
     <>
+      {!onlyThirdPartyProviders && <Divider appearance={appearance} />}
+
       {providers && providers.length > 0 && (
         <>
           <Container gap="large" direction="vertical" appearance={appearance}>
@@ -95,7 +97,6 @@ function SocialAuth({
               })}
             </Container>
           </Container>
-          {!onlyThirdPartyProviders && <Divider appearance={appearance} />}
         </>
       )}
     </>

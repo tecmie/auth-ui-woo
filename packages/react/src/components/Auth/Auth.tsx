@@ -84,6 +84,9 @@ function Auth({
           : ''
       }
     >
+      {!onlyThirdPartyProviders && children}
+
+      {/* Add the socials below forms */}
       {SignView && (
         <SocialAuth
           appearance={appearance}
@@ -98,7 +101,6 @@ function Auth({
           view={authView}
         />
       )}
-      {!onlyThirdPartyProviders && children}
     </div>
   )
 

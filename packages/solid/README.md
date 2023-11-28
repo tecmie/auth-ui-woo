@@ -1,4 +1,4 @@
-# Supabase Auth UI Solid.js 
+# Supabase Auth UI Solid.js
 
 Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.
 
@@ -22,7 +22,7 @@ yarn add @supabase/supabase-js @supabase/auth-ui-solid
 
 #### Create you Supabase client
 
-Let's create our Supabase client 
+Let's create our Supabase client
 
 ```js
 import { createClient } from '@supabase/supabase-js'

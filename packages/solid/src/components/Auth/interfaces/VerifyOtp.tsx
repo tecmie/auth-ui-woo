@@ -5,12 +5,7 @@ import {
   VerifyOtpParams,
 } from '@supabase/supabase-js'
 import { createSignal, Setter } from 'solid-js'
-import {
-  I18nVariables,
-  ViewType,
-  VIEWS,
-  OtpType,
-} from '@wootiv/auth-ui-shared'
+import { I18nVariables, ViewType, VIEWS, OtpType } from '@wootiv/auth-ui-shared'
 import { Appearance, FormEvent } from '../../../types'
 import { Anchor, Button, Container, Input, Label, Message } from '../../UI'
 

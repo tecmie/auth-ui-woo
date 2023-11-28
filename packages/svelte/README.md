@@ -1,4 +1,4 @@
-# Supabase Auth UI Svelte 
+# Supabase Auth UI Svelte
 
 Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.
 
@@ -24,15 +24,12 @@ yarn add @supabase/supabase-js @supabase/auth-ui-svelte
 
 #### Create you Supabase client
 
-Let's create our Supabase client 
+Let's create our Supabase client
 
 ```js
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient(
-  '<INSERT PROJECT URL>',
-  '<INSERT PROJECT ANON API KEY>'
-)
+const supabase = createClient('<INSERT PROJECT URL>', '<INSERT PROJECT ANON API KEY>');
 ```
 
 #### Passing your Supabase client to the Auth component as a prop
