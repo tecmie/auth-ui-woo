@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Auth } from '@supabase/auth-ui-svelte';
 	import { supabaseClient } from '../db';
-	import { ThemeSupa, type SocialLayout, type ViewType } from '@supabase/auth-ui-shared';
+	import { ThemeSupa, type SocialLayout, type ViewType } from '@wootiv/auth-ui-shared';
 	import MenuIcon from './MenuIcon.svelte';
 	import ToggleButton from './ToggleButton.svelte';
 

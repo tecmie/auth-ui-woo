@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Appearance } from '$lib/types';
-	import { generateClassNames } from '@supabase/auth-ui-shared';
+	import { generateClassNames } from '@wootiv/auth-ui-shared';
 
 	type ButtonProps = svelte.JSX.HTMLAttributes<HTMLButtonElement>;
 	type $$Props = Omit<ButtonProps, 'loading'> & {

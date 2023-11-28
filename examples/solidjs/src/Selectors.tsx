@@ -19,7 +19,7 @@ import {
 } from './store'
 import Logo from './logo.svg'
 import { MaterialUISwitch } from './muiswitch'
-import { SocialLayout } from '@supabase/auth-ui-shared'
+import { SocialLayout } from '@wootiv/auth-ui-shared'
 
 function Selectors() {
   return (

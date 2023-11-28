@@ -1,6 +1,6 @@
 import { SupabaseClient } from '@supabase/supabase-js'
 import React, { useState } from 'react'
-import { VIEWS, I18nVariables, RedirectTo } from '@supabase/auth-ui-shared'
+import { VIEWS, I18nVariables, RedirectTo } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../../types'
 import {
   Anchor,

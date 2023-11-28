@@ -1,5 +1,5 @@
 import { css } from '@stitches/core'
-import { generateClassNames } from '@supabase/auth-ui-shared'
+import { generateClassNames } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../types'
 import { JSXElement, JSX, Component, createMemo, createEffect } from 'solid-js'
 

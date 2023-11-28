@@ -1,6 +1,6 @@
 import { css } from '@stitches/core'
 import { Component, JSX, JSXElement } from 'solid-js'
-import { generateClassNames } from '@supabase/auth-ui-shared'
+import { generateClassNames } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../types'
 
 const inputDefaultStyles = css({

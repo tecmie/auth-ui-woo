@@ -1,6 +1,6 @@
 import { SupabaseClient } from '@supabase/supabase-js'
 import React, { useState } from 'react'
-import { I18nVariables } from '@supabase/auth-ui-shared'
+import { I18nVariables } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../../types'
 import { Button, Container, Input, Label, Message } from './../../UI/index.js'
 

@@ -1,5 +1,5 @@
 import { createStitches, createTheme } from '@stitches/core'
-import { I18nVariables, merge, VIEWS, en } from '@supabase/auth-ui-shared'
+import { I18nVariables, merge, VIEWS, en } from '@wootiv/auth-ui-shared'
 import React, { useEffect, useState } from 'react'
 import { Auth as AuthProps } from '../../types'
 import {

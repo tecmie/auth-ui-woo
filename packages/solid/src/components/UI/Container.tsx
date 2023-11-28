@@ -1,5 +1,5 @@
 import { css } from '@stitches/core'
-import { SocialLayout, generateClassNames } from '@supabase/auth-ui-shared'
+import { SocialLayout, generateClassNames } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../types'
 import { JSXElement, JSX, Component, createMemo } from 'solid-js'
 

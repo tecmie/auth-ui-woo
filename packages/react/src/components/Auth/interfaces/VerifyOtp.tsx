@@ -5,7 +5,7 @@ import {
   VerifyOtpParams,
 } from '@supabase/supabase-js'
 import React, { useState } from 'react'
-import { VIEWS, I18nVariables, OtpType } from '@supabase/auth-ui-shared'
+import { VIEWS, I18nVariables, OtpType } from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../../types'
 import {
   Anchor,

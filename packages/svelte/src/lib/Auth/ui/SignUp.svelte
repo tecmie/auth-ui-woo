@@ -5,7 +5,7 @@
 		ProviderScopes,
 		SocialLayout,
 		ViewType
-	} from '@supabase/auth-ui-shared';
+	} from '@wootiv/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 	import Auth from '../Auth.svelte';
 

@@ -8,7 +8,7 @@ import {
   SocialLayout,
   OtpType,
   ViewType,
-} from '@supabase/auth-ui-shared'
+} from '@wootiv/auth-ui-shared'
 import { Auth as AuthProps } from '../../types'
 import {
   EmailAuth,

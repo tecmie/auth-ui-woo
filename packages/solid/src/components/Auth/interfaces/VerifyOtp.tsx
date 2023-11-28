@@ -10,7 +10,7 @@ import {
   ViewType,
   VIEWS,
   OtpType,
-} from '@supabase/auth-ui-shared'
+} from '@wootiv/auth-ui-shared'
 import { Appearance, FormEvent } from '../../../types'
 import { Anchor, Button, Container, Input, Label, Message } from '../../UI'
 

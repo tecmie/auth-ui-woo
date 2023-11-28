@@ -29,7 +29,7 @@ importers:
       '@supabase/auth-ui-react':
         specifier: workspace:*
         version: link:../../packages/react
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/supabase-js':
@@ -78,7 +78,7 @@ importers:
 
   examples/solidjs:
     dependencies:
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/auth-ui-solid':
@@ -109,7 +109,7 @@ importers:
 
   examples/svelte:
     dependencies:
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../../packages/shared
       '@supabase/auth-ui-svelte':
@@ -179,7 +179,7 @@ importers:
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../shared
       prop-types:
@@ -252,7 +252,7 @@ importers:
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../shared
       just-merge:
@@ -301,7 +301,7 @@ importers:
       '@stitches/core':
         specifier: ^1.2.8
         version: 1.2.8
-      '@supabase/auth-ui-shared':
+      '@wootiv/auth-ui-shared':
         specifier: workspace:*
         version: link:../shared
       svelte:

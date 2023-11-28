@@ -1,4 +1,4 @@
-import { BaseAppearance, BaseAuth } from '@supabase/auth-ui-shared'
+import { BaseAppearance, BaseAuth } from '@wootiv/auth-ui-shared'
 import { CSSProperties, ReactNode } from 'react'
 
 export interface Appearance extends BaseAppearance {

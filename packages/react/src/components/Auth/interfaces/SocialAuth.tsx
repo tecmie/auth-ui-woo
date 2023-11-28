@@ -5,7 +5,7 @@ import {
   ProviderScopes,
   SocialLayout,
   template,
-} from '@supabase/auth-ui-shared'
+} from '@wootiv/auth-ui-shared'
 import { Appearance } from '../../../types'
 import { Button, Container, Divider } from './../../UI/index.js'
 import { Icons } from './../Icons.js'

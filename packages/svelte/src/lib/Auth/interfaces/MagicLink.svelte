@@ -6,7 +6,7 @@
 	import Input from '$lib/UI/Input.svelte';
 	import Label from '$lib/UI/Label.svelte';
 	import Message from '$lib/UI/Message.svelte';
-	import { VIEWS, type I18nVariables, type ViewType } from '@supabase/auth-ui-shared';
+	import { VIEWS, type I18nVariables, type ViewType } from '@wootiv/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 
 	export let i18n: I18nVariables;

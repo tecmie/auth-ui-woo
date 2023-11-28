@@ -1,4 +1,4 @@
-# @supabase/auth-ui-shared
+# @wootiv/auth-ui-shared
 
 ## 0.1.8
 

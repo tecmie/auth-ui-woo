@@ -5,7 +5,7 @@
 		type I18nVariables,
 		type SocialLayout,
 		type ProviderScopes
-	} from '@supabase/auth-ui-shared';
+	} from '@wootiv/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 	import Button from '$lib/UI/Button.svelte';
 	import Container from '$lib/UI/Container.svelte';

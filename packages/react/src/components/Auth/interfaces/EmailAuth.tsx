@@ -7,7 +7,7 @@ import {
   ViewSignIn,
   VIEWS,
   ViewType,
-} from '@supabase/auth-ui-shared'
+} from '@wootiv/auth-ui-shared'
 import { Appearance } from './../../../types'
 import {
   Anchor,

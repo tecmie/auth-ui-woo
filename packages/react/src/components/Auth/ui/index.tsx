@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import Auth from '../Auth'
 import { Auth as AuthProps } from '../../../types'
-import { PREPENDED_CLASS_NAMES } from '@supabase/auth-ui-shared'
+import { PREPENDED_CLASS_NAMES } from '@wootiv/auth-ui-shared'
 import { css } from '@stitches/core'
 import { CssComponent } from '@stitches/core/types/styled-component'
 

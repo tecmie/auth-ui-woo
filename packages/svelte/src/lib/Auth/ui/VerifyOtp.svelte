@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SupabaseClient } from '@supabase/supabase-js';
-	import type { I18nVariables, OtpType } from '@supabase/auth-ui-shared';
+	import type { I18nVariables, OtpType } from '@wootiv/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 	import Auth from '../Auth.svelte';
 

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Appearance } from '$lib/types';
 	import { css } from '@stitches/core';
-	import { generateClassNames } from '@supabase/auth-ui-shared';
+	import { generateClassNames } from '@wootiv/auth-ui-shared';
 
 	const anchorHTMLAttributes = css({
 		fontFamily: '$bodyFontFamily',

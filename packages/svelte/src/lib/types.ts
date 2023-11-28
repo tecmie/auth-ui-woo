@@ -1,4 +1,4 @@
-import type { BaseAppearance } from '@supabase/auth-ui-shared';
+import type { BaseAppearance } from '@wootiv/auth-ui-shared';
 
 export interface Appearance extends BaseAppearance {
 	style?: {

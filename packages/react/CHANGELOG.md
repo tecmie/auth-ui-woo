@@ -6,7 +6,7 @@
 
 - a8f9395d: Message styling change
 - Updated dependencies [a8f9395d]
-  - @supabase/auth-ui-shared@0.1.8
+  - @wootiv/auth-ui-shared@0.1.8
 
 ## 0.4.5
 
@@ -16,7 +16,7 @@
 - 2b252910: Fix check for blank email address on magic links
 - 5607ea4a: Fix view layout alignment
 - Updated dependencies [2b252910]
-  - @supabase/auth-ui-shared@0.1.7
+  - @wootiv/auth-ui-shared@0.1.7
 
 ## 0.4.4
 
@@ -36,7 +36,7 @@
 
 - 8ca7a586: Add additional data to component to store in user_metadata
 - Updated dependencies [8ca7a586]
-  - @supabase/auth-ui-shared@0.1.6
+  - @wootiv/auth-ui-shared@0.1.6
 
 ## 0.4.1
 
@@ -44,7 +44,7 @@
 
 - 3aa2c54d: Add verify otp component
 - Updated dependencies [3aa2c54d]
-  - @supabase/auth-ui-shared@0.1.5
+  - @wootiv/auth-ui-shared@0.1.5
 
 ## 0.4.0
 
@@ -58,7 +58,7 @@
 
 - d5052260: Add providerScopes property for setting social auth scopes
 - Updated dependencies [d5052260]
-  - @supabase/auth-ui-shared@0.1.4
+  - @wootiv/auth-ui-shared@0.1.4
 
 ## 0.3.5
 
@@ -72,7 +72,7 @@
 
 - 11ebb978: Update i18n for confirmation messages
 - Updated dependencies [11ebb978]
-  - @supabase/auth-ui-shared@0.1.3
+  - @wootiv/auth-ui-shared@0.1.3
 
 ## 0.3.3
 
@@ -80,7 +80,7 @@
 
 - Updated dependencies [b8e6e3b4]
 - Updated dependencies [b8e6e3b4]
-  - @supabase/auth-ui-shared@0.1.2
+  - @wootiv/auth-ui-shared@0.1.2
 
 ## 0.3.2
 
@@ -91,7 +91,7 @@
 - e1fa4ee4: Update forms to select input when label is pressed
 - 121e88d1: Add full relative file names for ESM in Node
 - Updated dependencies [0d794741]
-  - @supabase/auth-ui-shared@0.1.1
+  - @wootiv/auth-ui-shared@0.1.1
 
 ## 0.3.1
 
@@ -111,7 +111,7 @@
 ### Patch Changes
 
 - Updated dependencies [1349aa6]
-  - @supabase/auth-ui-shared@0.1.0
+  - @wootiv/auth-ui-shared@0.1.0
 
 ## 0.2.8
 

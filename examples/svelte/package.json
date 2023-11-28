@@ -14,7 +14,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
-		"@supabase/auth-ui-shared": "workspace:*",
+		"@wootiv/auth-ui-shared": "workspace:*",
 		"@supabase/auth-ui-svelte": "workspace:*",
 		"@supabase/supabase-js": "^2.21.0"
 	},

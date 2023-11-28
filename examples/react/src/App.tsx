@@ -1,6 +1,6 @@
 import styles from './App.module.css'
 import { createClient } from '@supabase/supabase-js'
-import { SocialLayout, ThemeSupa, ViewType } from '@supabase/auth-ui-shared'
+import { SocialLayout, ThemeSupa, ViewType } from '@wootiv/auth-ui-shared'
 import { Auth } from '@supabase/auth-ui-react'
 import { useState } from 'react'
 import ToggleButton from './ToggleButton'

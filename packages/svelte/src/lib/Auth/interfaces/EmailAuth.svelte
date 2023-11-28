@@ -11,7 +11,7 @@
 		type I18nVariables,
 		type ViewType,
 		type RedirectTo
-	} from '@supabase/auth-ui-shared';
+	} from '@wootiv/auth-ui-shared';
 	import type { Appearance } from '$lib/types';
 
 	export let authView: ViewType = 'sign_in';
